@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+
+    width: 75%;
+
+    background-color: #faedcd;
+}
+
+section{
+
+    margin: 20px 100px;
+}
+
+#profile-section, #edu-work-section{
+
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* .profile-image,.profile-details{
+
+    background-color: green;
+
+    height: 100px;
+} */
+
+.profile-image img{
+
+    width: 75%;
+
+    height: 100%;
+
+    border: 1px solid black;
+
+    padding: 5px;
+
+    border-radius: 200px;
+}
+
+.profile-details h1{
+
+    font-size: 80px;
+    
+    font-family: "Playfair Display", serif;
+}
+
+.profile-details h2{
+
+    font-size: 40px;
+
+}
+
+#my-profile-section h1{
+
+    font-size: 100px;
+
+    text-align: center;
+    
+    font-family: "Playfair Display", serif;
+
+}
+
+.education ul li {
+
+    font-weight: bold;
+}
+
+.skill-section{
+
+    display: flex;
+
+    align-items: center;
+}
+
+.skil-sub{
+
+    margin: 0px 35px;
+
+}
+
+.skil-sub p{
+
+    font-size: 15px;
+}
+
+.skil-sub p span{
+
+    font-size: 30px;
+}
+
+#contact-section {
+
+    display: flex;
+
+    justify-content: space-between;
+}
